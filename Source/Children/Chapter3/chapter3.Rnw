@@ -356,8 +356,8 @@ library(ggplot2)
 \noindent Please note that for the examples in this book I only specify what package a command is from if it is not loaded by default when you start an R session. 
 
 Finally, if you want to make sure R uses a command from a specific package you can use the double-colon operator (\verb|::|).\index{R command!double-colon operator}\index{R command!::} For example, to make sure that we use the \texttt{qplot}\index{ggplot2!qplot} command from the \emph{ggplot2} package we type:
-
-<<Ch3ColonOperator, echo=TRUE, eval=FALSE>>=
+% Alan added tidy = FALSE 12/29/13
+<<Ch3ColonOperator, echo=TRUE, eval=FALSE, tidy = FALSE>>=
 ggplot2::qplot(. . .)
 @
 

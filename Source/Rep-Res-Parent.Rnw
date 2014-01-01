@@ -3,6 +3,7 @@
 % Christopher Gandrud
 % 24 May 2013
 %%%%%%%%%%%%%%
+% Alan updated 12/29/13
 
 % Tell RStudio that weaving is to be done with the knitr package
 % !Rnw weave = knitr
@@ -39,6 +40,9 @@
 \usepackage{wrapfig}
 \usepackage{alltt}
 
+% Alan added 12/29/13 --- see if it works with krantz --- Nope do many errors!!!!
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue, linktocpage=true,breaklinks=true]{hyperref}
+
 \newcommand{\blankpage}{
 	\newpage
 	\thispagestyle{empty}
@@ -48,7 +52,9 @@
 
 
 % Set margins on highlighted code output boxes
-\setlength\fboxsep{6.25mm}
+% \setlength\fboxsep{6.25mm}
+% Alan changed 12/29/13
+\setlength\fboxsep{2mm}
 
 % Set knitr global options
 <<ParentGlobalOpts, echo=FALSE>>=

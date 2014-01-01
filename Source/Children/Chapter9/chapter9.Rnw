@@ -41,8 +41,8 @@ Before getting into the details of how to create tables from R objects we need t
 Tables in LaTeX are usually embedded in two environments:\index{LaTeX environment!table} the \texttt{table} and \texttt{tabular} environments. What is a LaTeX environment in general?
 
 A LaTeX environment\label{LaTeXEnviron} is a part of the markup where special commands are executed. A simple environment is the \texttt{center} environment.\footnote{For a comprehensive list of LaTeX environments see: \url{http://latex.wikia.com/wiki/List_of_LaTeX_environments}.} Everything typed in a center environment is, unsurprisingly, centered. Typing:
-
-<<Ch9CenterEnviron, eval=FALSE>>=
+% Alan added engine = "sh" 12/29/13
+<<Ch9CenterEnviron, eval=FALSE, engine = "sh">>=
 \begin{center}
     This is a center environment.
 \end{center}
@@ -56,7 +56,7 @@ A LaTeX environment\label{LaTeXEnviron} is a part of the markup where special co
 
 \noindent LaTeX environments all follow the same general syntax:
 
-<<Ch9EnvironSyntax, eval=FALSE, tidy=FALSE>>=
+<<Ch9EnvironSyntax, eval=FALSE, tidy=FALSE, engine = "sh">>=
 \begin{ENVIRONMENT_NAME}
     . . .
     . . .
@@ -73,7 +73,7 @@ The \texttt{tabular} environment allows you to create tables in LaTeX. Let's wor
 
 To begin a simple tabular environment type \verb|\begin{tabular}{TABLE_SPEC}|. The \verb|TABLE_SPEC| argument allows you to specify the number of columns in a table and the alignment of text in each column. For example, to create a table with three columns, the first of which is left-justified and the latter two center-justified we type:
 
-<<Ch9BeginTabular1, eval=FALSE, tidy=FALSE>>=
+<<Ch9BeginTabular1, eval=FALSE, tidy=FALSE, engine = "sh">>=
 \begin{tabular}{l c c}
 @ 
 

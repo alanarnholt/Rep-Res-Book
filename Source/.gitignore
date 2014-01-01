@@ -16,6 +16,7 @@ figure/*
 *.RData
 .Ristory
 *.tex
+*.Rproj
 
 # Don't ignore these files
 !Children/FrontMatter/AdditionalResources/imagesExamp/ExampDiagram.tex
