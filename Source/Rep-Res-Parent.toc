@@ -72,20 +72,20 @@
 \contentsline {paragraph}{The {\normalfont {Source}} pane}{41}
 \contentsline {section}{\numberline {3.3}Using \emph {knitr}: the Basics}{42}
 \contentsline {subsection}{\numberline {3.3.1}What \emph {knitr} does}{43}
-\contentsline {subsection}{\numberline {3.3.2}File extensions}{43}
+\contentsline {subsection}{\numberline {3.3.2}File extensions}{44}
 \contentsline {subsection}{\numberline {3.3.3}Code chunks}{44}
 \contentsline {paragraph}{R Markdown}{44}
 \contentsline {paragraph}{R LaTeX}{44}
 \contentsline {paragraph}{Code chunk labels}{45}
-\contentsline {paragraph}{Code chunk options}{45}
+\contentsline {paragraph}{Code chunk options}{46}
 \contentsline {subsection}{\numberline {3.3.4}Global chunk options}{46}
 \contentsline {subsection}{\numberline {3.3.5}\emph {knitr} package options}{48}
-\contentsline {subsection}{\numberline {3.3.6}Hooks}{48}
+\contentsline {subsection}{\numberline {3.3.6}Hooks}{49}
 \contentsline {subsection}{\numberline {3.3.7}\emph {knitr} \& RStudio}{49}
 \contentsline {paragraph}{Compiling R source code Notebooks}{49}
 \contentsline {paragraph}{R Markdown}{49}
 \contentsline {paragraph}{R LaTeX}{51}
-\contentsline {paragraph}{Change default .Rnw knitter}{51}
+\contentsline {paragraph}{Change default .Rnw knitter}{52}
 \contentsline {subsection}{\numberline {3.3.8}\emph {knitr} \& R}{52}
 \contentsline {paragraph}{Set Up}{53}
 \contentsline {paragraph}{Code Chunks}{53}
